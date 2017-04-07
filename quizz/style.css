@@ -1,0 +1,66 @@
+body{
+  background-color:rgb(54, 199, 195);
+}
+
+
+p{
+  text-align: center;
+}
+
+.regle{
+  text-align: center;
+  color: black;
+}
+
+.left{
+  text-align: left;
+}
+
+.border{
+  border: 2px solid black;
+}
+
+.vert{
+  background-color: green;
+  color: white;
+}
+
+.rouge{
+  background-color: red;
+  color: white;
+}
+
+.question{
+  display: none;
+}
+
+.fond{
+  background-color: rgb(233, 233, 233);
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.debut{
+  filter: blur(5px);
+}
+
+
+#bouton{
+  position: absolute;
+  top: 300px;
+  left:45%;
+  z-index: 11;
+}
+
+@media only screen and (max-width: 500px) {
+  #bouton{
+    position: absolute;
+    top: 420px;
+    left:30%;
+  }
+
+}

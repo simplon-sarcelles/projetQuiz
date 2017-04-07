@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js" ></script>
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+<body>
+  <div class="container-fluid">
+
+
+
+  <button type="button" class="btn btn-info btn-lg" id="bouton">Commencer</button>
+
+
+
+
+
+
+    <h1 class="debut">Welcome to my quiz</h1>
+    <h2 class="debut">Question</h2>
+
+    <div class="question start debut">
+      <p class="left">Q1: Quel nom porte le logiciel de traitement de texte mis au point par Microsoft ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-lg-offset-2 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q1r1">
+          <p>Access</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0  col-lg-4 border bon" id="q1r2">
+          <p>Word</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q1r3">
+          <p>Excel</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q1r4">
+          <p>PowerPoint</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p class="left">Q2: À quelle classe animale le scorpion appartient-il ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q2r1">
+          <p>Aux mammifères</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q2r2">
+          <p>Aux reptiles</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border bon" id="q2r3">
+          <p>Aux arachnides</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q2r4">
+          <p>Aux insectes</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p class="left">Q3: Quel animal est le plus rapide à terre ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q3r1">
+          <p>Le léopard</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q3r2">
+          <p>Le lynx</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border bon" id="q3r3">
+          <p>Le guépard mauvais</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q3r4">
+          <p>La panthère noire</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="question">
+      <p class="left">Q4: Qui était le premier président de la république ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q4r1">
+          <p>Adolphe Thiers</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q4r2">
+          <p>Charles de Gaulle</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q4r3">
+          <p>Raymond Poincaré</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border bon" id="q4r4">
+          <p>Louis-Napoléon Bonaparte</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p class="left">Q5: Comment se nomme la peur du nombre 13 ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q5r1">
+          <p>La katagélophobie</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q5r2">
+          <p>L'anuptaphobie</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q5r3">
+          <p>La triskadékaphobie</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border bon" id="q5r4">
+          <p>La sidérodromophobie</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p class="left">Q6: Comment se nomme le signe "&" ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border bon" id="q6r1">
+          <p>Esperluette</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q6r2">
+          <p>Heperluette</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q6r3">
+          <p>Eperluette</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q6r4">
+          <p>Eperluète</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="question">
+      <p class="left">Q7: En français, sur quelle lettre ne peut-on pas mettre de tréma ? </p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q7r1">
+          <p>e</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q7r2">
+          <p>i</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border bon" id="q7r3">
+          <p>o</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q7r4">
+          <p>u</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p class="left">Q8: Le prénom de César était ? </p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q8r1">
+          <p>Jules</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border bon" id="q8r2">
+          <p>Caïus</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q8r3">
+          <p>Ignatius</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q8r4">
+          <p>Marcellus</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p class="left">Q9: Quel gaz est libéré lors de l'ouverture d'une bouteille de Coca-Cola ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q9r1">
+          <p>De l'oxygène</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q9r2">
+          <p>Du dioxygène</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q9r3">
+          <p>Du dioxyde d'oxygène</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border bon mauvais" id="q9r4">
+          <p>Du dioxyde de carbone</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="finquestion" class="question">
+      <p class="left">Q10: A quelle vitesse atteint-on le mur du son ?</p>
+      <br>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q10r1">
+          <p>924 km/h</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border mauvais" id="q10r2">
+          <p>1024 km/h</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border mauvais" id="q10r3">
+          <p>1124 km/h</p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-4 border bon" id="q10r4">
+          <p>1224km/h</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="question startPrev">
+      <div class="row">
+<div class="col-lg-offset-4 col-lg-4">
+  <img class="img-responsive" src="imgs/Congratulationsv2.png">
+
+</div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <br>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10 col-lg-offset-2 col-lg-4 border previous" id="previous">
+        <p>Précédent</p>
+      </div>
+      <div class="col-xs-offset-1 col-xs-10  col-lg-offset-0 col-lg-4 border next debut" id="next">
+        <p>Suivant</p>
+      </div>
+    </div>
+
+    <div class="col-lg-12 fond">
+<h1 class="regle">Vous avez 60 secondes pour finir le quiz</h1>
+<h3 class="regle">Veuillez rester calme pendant le quiz pour votre securité</h3>
+    </div>
+
+
+<div class="row">
+  <div class="col-lg-6">
+    <p id="faute" class="debut"></p>
+  </div>
+  <div class="col-lg-offset-0">
+    <p id="time" class="debut"></p>
+  </div>
+</div>
+
+  </div>
+
+<audio src="sound/badAnswer.mp3" type="audio/mpeg" id="mauvais"></audio>
+<audio src="sound/goodAnswer.mp3" type="audio/mpeg" id="bon"></audio>
+<audio control loop src="sound/fondmusique.mp3" type="audio/mpeg" id="fondmusique"></audio>
+
+
+
+</body>
+</html>
